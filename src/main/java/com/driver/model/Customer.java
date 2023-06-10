@@ -22,6 +22,14 @@ public class Customer {
         this.password = password;
     }
 
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
     public List<TripBooking> getTripBookingList() {
         return tripBookingList;
     }

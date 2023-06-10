@@ -46,6 +46,14 @@ public class TripBooking {
         return toLocation;
     }
 
+    public int getTripBookingId() {
+        return tripBookingId;
+    }
+
+    public void setTripBookingId(int tripBookingId) {
+        this.tripBookingId = tripBookingId;
+    }
+
     public void setToLocation(String toString) {
         this.toLocation = toString;
     }

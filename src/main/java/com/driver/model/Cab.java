@@ -42,6 +42,18 @@ public class Cab {
         this.perKmRate = perKmRate;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
     public boolean getAvailable() {
         return available;
     }
